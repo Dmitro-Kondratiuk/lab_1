@@ -1,6 +1,6 @@
 <?php
 $string  = file_get_contents('words_alpha.txt','r');
-$array  = explode("\r\n",$string);
+$array  = explode("\n",$string);
 if(empty($argv[1])){
     echo "Please enter ARGUMENT\n";
     return;
